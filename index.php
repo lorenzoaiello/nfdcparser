@@ -1,6 +1,6 @@
 <?php
 
-$dataset = 'twr';
+$dataset = 'fix';
 
 $date = get_date();
 
@@ -29,6 +29,12 @@ switch($dataset)
 		break;
 	case "twr":
 		$model = 'twr';
+		break;
+	case "natfix":
+		$model = 'natfix';
+		break;
+	case "fix":
+		$model = 'fix';
 		break;
 	default:
 		echo "Invalid dataset";
