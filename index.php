@@ -1,6 +1,6 @@
 <?php
 
-$dataset = 'fix';
+$dataset = 'harfix';
 
 $date = get_date();
 
@@ -27,14 +27,23 @@ switch($dataset)
 	case "cdr":
 		$model = 'cdr';
 		break;
-	case "twr":
-		$model = 'twr';
+	case "com":
+		$model = 'com';
+		break;
+	case "fix":
+		$model = 'fix';
+		break;
+	case "fss":
+		$model = 'fss';
+		break;
+	case "harfix":
+		$model = 'harfix';
 		break;
 	case "natfix":
 		$model = 'natfix';
 		break;
-	case "fix":
-		$model = 'fix';
+	case "twr":
+		$model = 'twr';
 		break;
 	default:
 		echo "Invalid dataset";
