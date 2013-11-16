@@ -1,6 +1,6 @@
 <?php
 
-$dataset = 'hpf';
+$dataset = 'ils';
 
 $date = get_date();
 
@@ -41,6 +41,9 @@ switch($dataset)
 		break;
 	case "hpf":
 		$model = 'hpf';
+		break;
+	case "ils":
+		$model = 'ils';
 		break;
 	case "natfix":
 		$model = 'natfix';
