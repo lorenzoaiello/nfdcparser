@@ -1,6 +1,6 @@
 <?php
 
-$dataset = 'harfix';
+$dataset = 'hpf';
 
 $date = get_date();
 
@@ -38,6 +38,9 @@ switch($dataset)
 		break;
 	case "harfix":
 		$model = 'harfix';
+		break;
+	case "hpf":
+		$model = 'hpf';
 		break;
 	case "natfix":
 		$model = 'natfix';
