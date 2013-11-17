@@ -1,6 +1,6 @@
 <?php
 
-$dataset = 'ils';
+$dataset = 'lid';
 
 $date = get_date();
 
@@ -44,6 +44,9 @@ switch($dataset)
 		break;
 	case "ils":
 		$model = 'ils';
+		break;
+	case "lid":
+		$model = 'lid';
 		break;
 	case "natfix":
 		$model = 'natfix';
