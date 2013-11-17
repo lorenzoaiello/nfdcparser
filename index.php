@@ -1,6 +1,6 @@
 <?php
 
-$dataset = 'lid';
+$dataset = 'mtr';
 
 $date = get_date();
 
@@ -47,6 +47,9 @@ switch($dataset)
 		break;
 	case "lid":
 		$model = 'lid';
+		break;
+	case "mtr":
+		$model = 'mtr';
 		break;
 	case "natfix":
 		$model = 'natfix';
