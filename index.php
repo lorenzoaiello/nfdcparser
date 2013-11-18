@@ -95,10 +95,7 @@ function get_date()
 	$url = explode('<a href="/xwiki/bin/view/NFDC/56DaySub-',$url[0]);
 	$date = $url[1];
 	
-	//return $date;
-	//return '2013-06-27';
-	//return '2013-05-02';
-	return '2013-03-07';
+	return $date;
 }
 
 function get_data($url,$internal_filename)
