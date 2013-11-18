@@ -1,6 +1,6 @@
 <?php
 
-$dataset = 'stardp';
+$dataset = 'ssd';
 
 $date = get_date();
 
@@ -62,6 +62,9 @@ switch($dataset)
 		break;
 	case "pja":
 		$model = 'pja';
+		break;
+	case "ssd":
+		$model = 'ssd';
 		break;
 	case "stardp":
 		$model = 'stardp';
