@@ -1,6 +1,6 @@
 <?php
 
-$dataset = 'pfr';
+$dataset = 'stardp';
 
 $date = get_date();
 
@@ -62,6 +62,9 @@ switch($dataset)
 		break;
 	case "pja":
 		$model = 'pja';
+		break;
+	case "stardp":
+		$model = 'stardp';
 		break;
 	case "twr":
 		$model = 'twr';
