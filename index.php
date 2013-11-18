@@ -1,6 +1,6 @@
 <?php
 
-$dataset = 'mtr';
+$dataset = 'nav';
 
 $date = get_date();
 
@@ -53,6 +53,9 @@ switch($dataset)
 		break;
 	case "natfix":
 		$model = 'natfix';
+		break;
+	case "nav":
+		$model = 'nav';
 		break;
 	case "twr":
 		$model = 'twr';
