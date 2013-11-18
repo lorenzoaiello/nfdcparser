@@ -1,6 +1,6 @@
 <?php
 
-$dataset = 'nav';
+$dataset = 'pja';
 
 $date = get_date();
 
@@ -56,6 +56,9 @@ switch($dataset)
 		break;
 	case "nav":
 		$model = 'nav';
+		break;
+	case "pja":
+		$model = 'pja';
 		break;
 	case "twr":
 		$model = 'twr';
